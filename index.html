@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Header-->
+    <div class="bg-blue-700 p-4 flex justify-between items-center">
+        <!--Left-->
+        <div class="flex items-center">
+            <img src="https://cdn0.iconfinder.com/data/icons/essential-pack-4/512/25-2-512.png" alt="logo" width="50" class="mr-2">
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Home</a>
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">About</a>
+        </div>
+
+        <!--Right-->
+        <div class="hidden md:block">
+            <a href="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Login</a>
+            <a href="#" class="inline-block py-2 px-4 bg-yellow-400 rounded transition ease-in duration-150 hover:bg-yellow-200 hover:text-blue-600">Sign up</a>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+    <div class="md:flex justify-between bg-blue-300 text-indigo-100">
+        <!--Left-->
+        <div class="md:w-1/2 mb-10 md:mb-0" >
+            <h2 class="text-4xl md:text-4xl lg:text-6xl text-white mb-6 m-2">Welcome to Raju's Eye Hospital</h2>
+            <p class="m-7 ">“Where words are restrained, the eyes often talk a great deal.” </p>
+            <a href="#" class="inline-block py-2 px-4 bg-blue-400 rounded transition ease-in duration-150 h-17 hover:bg-blue-200 hover:text-blue-600 m-2">Learn More</a>
+            <a href="#" class="inline-block py-2 px-4 bg-yellow-400 rounded transition ease-in duration-150 h-17 hover:bg-yellow-200 hover:text-blue-600">Get Appointment</a>
+
+        </div>
+
+
+        <!--Right-->
+        <div class="md:w-1/2">
+            <img src="https://5.imimg.com/data5/OO/KP/GLADMIN-7708402/paediatric-ophthalmology-services-500x500.png" alt="eye" width="700" class="m-10">
+
+        </div>
+    </div>
+    <!--Features-->
+    <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 text-center">
+        <div class="mr-2 text-center">
+            <img src="https://asgeyehospital.com/wp-content/uploads/2020/02/experts-aiims.jpg" alt="eye" width="300" class="m-10">
+            <p class="text-white text-2xl">Laser Checkup</p>
+        </div>
+        <div class="mr-2 text-center">
+            <img src="https://images1-fabric.practo.com/jyoti-eye-hospital-ahmedabad-1468223025-57834e31c8070.jpg" alt="eye" width="300" class=" object-cover h-48 mt-15">
+            <p class="text-white text-2xl">Machine Checkup</p>
+        </div>
+        <div class="mr-2 text-center">
+            <img src="https://content3.jdmagicbox.com/comp/def_content/eye_hospitals/default-eye-hospitals-4.jpg" alt="eye" width="300" class="m-10">
+            <p class="text-white text-2xl">Laser EyeSight Removal</p>
+        </div>
+        <div class="mr-2 text-center">
+            <img src="https://content.jdmagicbox.com/def_content/eye_hospitals/default-eye-hospitals-3.jpg" alt="eye" width="300" class="mt-15">
+            <p class="text-white text-2xl">Laser sergery</p>
+        </div>
+
+    </div>
+
+    <!--Footer and Newsletter-->
+    <div class="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+        <!--Left-->
+        <div class="md:w-1/2">
+            <h3 class="text-lg mb-2">For free checkup enter your email: </h3>
+            <form class="flex">
+                <input type="email" class="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-200">
+                <button class="bg-red-500 hover:bg-red-600 px-4 rounde-r text-red-800">Submit</button>
+            </form>
+
+        </div>
+        <!--Right-->
+        <div class="flex items-counter">
+            <p class="text-white">Copyright &copy; 2021 Raju's Eye Hospital</p>
+
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
